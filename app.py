@@ -66,7 +66,7 @@ def upload_form():
         <body>
             <h1>FortiGate Policy Generator from CSV/XLSX</h1>
             <p><strong>Example Excel Format:</strong></p>
-            <img src="/static/sample_excel_format.jpg" alt="Sample Excel Format" style="max-width:100%; border:1px solid #ccc; padding:5px; margin-bottom:20px;">
+            <img src="sample_excel_format.jpg" alt="Sample Excel Format" style="max-width:100%; border:1px solid #ccc; padding:5px; margin-bottom:20px;">
             <p><strong>Required Columns:</strong></p>
            <ul>
                 <li><code>Policy Name</code> – A unique name for the firewall policy</li>
