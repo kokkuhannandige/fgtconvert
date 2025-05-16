@@ -64,9 +64,11 @@ def upload_form():
     return render_template_string("""
     <html>
         <body>
-            <h1>Upload Your Spreadsheet (CSV or Excel)</h1>
+            <h1>FortiGate Policy Generator from CSV/XLSX</h1>
+            <p><strong>Example Excel Format:</strong></p>
+            <img src="/static/sample_excel_format.jpg" alt="Sample Excel Format" style="max-width:100%; border:1px solid #ccc; padding:5px; margin-bottom:20px;">
             <p><strong>Required Columns:</strong></p>
-            <ul>
+           <ul>
                 <li><code>Policy Name</code> – A unique name for the firewall policy</li>
                 <li><code>Source Address</code> – Can be a name or IP address</li>
                 <li><code>Source Subnet</code> – If named source is used, provide subnet (e.g. 192.168.1.0/24)</li>
